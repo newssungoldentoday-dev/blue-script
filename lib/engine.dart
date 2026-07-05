@@ -19,4 +19,19 @@ class ComEngine {
     return ["Com-Kernel: Command not routed."];
   }
 }
+// engine.dart - The Yielding-Gather Loop
+static Stream<String> startLogcatLoop() async* {
+  int counter = 0;
+  double summationValue = 0.0;
+
+  while (true) {
+    await Future.delayed(const Duration(seconds: 2));
+    counter++;
+    summationValue += 12.5; // Simulate adding pings or business data points
+
+    yield "[Live-Stream] #Cycle_$counter | Sum: $summationValue | Status: #Operational";
+    
+    // We break the loop if the user types 'stop'
+  }
+}
 
