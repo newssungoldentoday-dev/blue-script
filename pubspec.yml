@@ -1,0 +1,17 @@
+name: bluescript
+description: A powerful, open-source terminal emulator for Android.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0 # Use the version matching your Flutter install
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # List your other packages here...
+
+# --- IMPORTANT FOR F-DROID ---
+homepage: https://github.com/YOUR_GITHUB_USERNAME/bluescript
+repository: https://github.com/YOUR_GITHUB_USERNAME/bluescript
+issue_tracker: https://github.com/YOUR_GITHUB_USERNAME/bluescript/issues
+license: GPL-3.0-or-later
