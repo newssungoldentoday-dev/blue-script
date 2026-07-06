@@ -11,7 +11,7 @@ dependencies:
   # List your other packages here...
 
 # --- IMPORTANT FOR F-DROID ---
-homepage: https://github.com/YOUR_GITHUB_USERNAME/bluescript
-repository: https://github.com/YOUR_GITHUB_USERNAME/bluescript
-issue_tracker: https://github.com/YOUR_GITHUB_USERNAME/bluescript/issues
+homepage: https://github.com/newssungoldentoday-dev/bluescript
+repository: https://github.com/newssungoldentoday-dev/bluescript
+issue_tracker: https://github.com/newssungoldentoday-dev/bluescript/issues
 license: GPL-3.0-or-later
